@@ -10,20 +10,21 @@
     />
     <style>
       body {
-        background-color: rgb(10, 10, 82);
-        margin: 20px;
-        padding: 20px;
+        background-color: rgb(234, 234, 239);
+        margin: 0px;
+        margin-top: 0px;
+        padding: 0px;
       }
       h2 {
-        color: white;
+        color: rgb(9, 24, 46);
         text-align: center;
         font-family: serif;
         font-size: 40px;
         border: 1px solid white;
-        border-radius: 10px;
-        background-color: purple;
+        border-radius: 0px;
+        background-color: rgb(192, 133, 192);
         padding: 5px;
-        margin: 5px;
+        margin: 0px;
       }
       h3 {
         color: rgb(239, 22, 22);
@@ -32,7 +33,7 @@
         font-size: 50px;
         text-transform: Uppercase;
       }
-      p {
+      .parent {
         color: white;
         font-size: 20px;
         text-align: justify;
@@ -40,27 +41,43 @@
         border-radius: 10px;
         background-color: rgba(0, 0, 200, 0.265);
         padding: 20px;
-        margin: 20px;
-        align: center;
+        position: relative;
+        margin: auto;
+
         height: 300px;
         width: 600px;
         overflow: auto;
         font-family: times new roman;
-        position: relative;
-        left: 20%;
-        top: 20px;
       }
       .material-icons {
         color: rgb(213, 177, 129);
         font-size: 20px;
         margin: 10px;
+        position: absolute;
+        top: 580px;
+        left: 50%;
+      }
+      .img {
+        width: 150px;
+        height: 150px;
+        border-radius: 30%;
+        border: 3px solid #16a085;
+        float: right;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
       }
     </style>
   </head>
   <body>
     <h2>ABC International School</h2>
     <h3>Notice</h3>
-    <p>
+    <div class="parent">
+      <img
+        src="C:\Users\91977\Pictures\img1.jpeg"
+        alt="School Image"
+        class="img"
+      />
       Dear Students and Parents,<br /><br />
       We are excited to announce that our school's Annual Day celebration is
       scheduled for December 15th, 2025. This event is a wonderful opportunity
@@ -78,13 +95,10 @@
       this Annual Day a grand success.<br /><br />
       Sincerely,<br />
       School Administration
-    </p>
-    <br />
-    <br />
-    <center>
       <span class="material-icons">email</span>
-      <span class="material-icons">phone</span>
-      <span class="material-icons">location_on</span>
-    </center>
+      <br />
+    </div>
+    <br />
+    <br />
   </body>
 </html>
