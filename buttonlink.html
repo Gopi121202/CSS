@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Link Styled as Button</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #89af1f, #59a725, #1b6712);
+      }
+      h3 {
+        text-align: center;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        letter-spacing: 3px;
+        text-shadow: 2px 2px 4px #000000;
+      }
+      .container {
+        border: 2px dashed white;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+
+        padding: 20px;
+        background-color: #de9d138f;
+        height: auto;
+      }
+      a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        transition: opacity 0.3s ease;
+      }
+
+      a:hover {
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Welcome</h3>
+    <div class="container">
+      <form>
+        <label for="registerid">Register ID:</label><br />
+        <input type="number" id="registerid" name="registerid" /><br /><br />
+      </form>
+      <a href="https://www.example.com">Login</a>
+    </div>
+  </body>
+</html>

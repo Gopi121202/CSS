@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product details</title>
+    <style>
+      .product-card {
+        border: 2px solid black;
+        border-radius: 10px 30px;
+        width: 600px;
+        height: 450px;
+        background-color: rgba(4, 4, 6, 0.397);
+        margin: 0 auto;
+        text-align: center;
+        font-family: Georgia;
+      }
+      body {
+        background: linear-gradient(
+          to right,
+          #424daf 0%,
+          #1a2a6c 41%,
+          #030b2b 80%
+        );
+      }
+      h3 {
+        color: white;
+        text-align: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular";
+        font-style: italic;
+        font-size: 100px;
+        text-shadow: 2px 2px 4px #000000;
+        letter-spacing: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .img {
+        width: 250px;
+        height: 200px;
+        border-radius: 0%;
+        border: 0px solid #010808;
+        margin-top: 20px;
+        float: right;
+        margin-right: 30px;
+      }
+      .buybutton {
+        background-color: #4caf50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+      }
+      @media only screen and (max-width: 700px) {
+        .product-card {
+          background-color: #8e23a9;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        .product-card {
+          background-color: #d62460;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h3>BMW</h3>
+
+    <div
+      class="product-card"
+      style="
+        color: rgb(229, 233, 239);
+        font-family: times New Roman;
+        font-size: 20px;
+        text-align: left;
+        margin: auto;
+        padding: 20px;
+      "
+    >
+      <img class="img" src="C:\Users\91977\Pictures\bmw.jpeg" alt="BMW" />
+      <h2>BMW 3 Series</h2>
+      <p>Price: Rs:2,99,99,999/-</p>
+      <p>Engine: 2.0L Turbocharged Inline-4</p>
+      <p>Horsepower: 255 hp</p>
+      <p>Fuel Efficiency: 26 MPG city / 36 MPG highway</p>
+      <p>Available Colors: Alpine White, Black Sapphire, Mineral Grey</p>
+      <br />
+      <button class="buybutton">Buy Now</button>
+    </div>
+  </body>
+</html>
